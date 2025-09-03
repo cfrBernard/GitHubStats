@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-GitHubStats = "GitHubStats.__main__:main"
+GHS = "GitHubStats.__main__:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
