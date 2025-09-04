@@ -14,7 +14,9 @@ repos:
     rev: v1.16.0
     hooks:
       - id: mypy
-        additional_dependencies: ["types-python-dateutil"]
+        additional_dependencies:
+          - "types-python-dateutil"
+          - "types-requests"
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
