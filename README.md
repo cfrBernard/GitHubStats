@@ -71,6 +71,12 @@ pip install -e .[dev]
 GHS
 ```
 
+### Build the App:
+
+```
+pyinstaller src/GitHubStats/__main__.py -F -w --icon=assets/icon.ico
+```
+
 ### Run pre-commit hooks:
 
 ```
