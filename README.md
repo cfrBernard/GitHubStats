@@ -79,6 +79,14 @@ pre-commit run --all-files
 
 ---
 
+## API Rate Limits:
+- **Authenticated users**: 5000 requests/hour
+- **Unauthenticated users**: 60 requests/hour
+
+> Each call costs 2 queries (automatic refresh runs 2 times per hour (4 calls per hour)).
+
+---
+
 ## 🤝 Contact:
 For issues, suggestions, or contributions, feel free to open an issue on the GitHub repository.
 
