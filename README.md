@@ -50,12 +50,12 @@ pip install -e .[dev]
 ```
 
 > **Note**: Using a .venv is highly recommended.
-
 #
 
 ### Configuration:
 1. Create a `config.txt` file in the root directory.
 2. Add the following lines to `config.txt`:
+
     ```
     GITHUB_TOKEN=your_personal_access_token
     GITHUB_USERNAME=your_github_username
